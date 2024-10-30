@@ -1,0 +1,21 @@
+a.btn {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+a.btn:hover {
+  background-color: #ccc;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#boxes div {
+  box-sizing: border-box;
+}

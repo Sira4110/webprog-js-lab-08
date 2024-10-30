@@ -1,0 +1,54 @@
+.input-field {
+  width: 300px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-field:hover {
+  border-color: black;
+}
+
+.input-field:focus {
+  border-color: gray;
+  color: gray;
+}
+
+.login-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+}
+
+.login-btn:hover {
+  background-color: #357abd;
+}
+
+.destroy-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #e94b35;
+}
+
+.destroy-btn:hover {
+  background-color: #ff6b5c;
+}
+
+a.btn {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+a.btn:hover {
+  background-color: #ccc;
+}
